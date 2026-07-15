@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Spotify - Web Player: Music For Everyone</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Image/logo.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===================== NAVBAR START ===================== -->
+    <header class="navbar">
+        <!-- Left Side -->
+        <div class="nav-left">
+            <!-- Spotify Logo -->
+            <div class="logo">
+                <i class="fa-brands fa-spotify"></i>
+            </div>
+
+            <!-- Home Button -->
+            <div class="home-btn">
+                <i class="fa-solid fa-house"></i>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="What do you want to play?" aria-label="Search">
+                <div class="search-divider"></div>
+                <i class="fa-regular fa-folder-open browse-icon"></i>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="nav-right">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <span class="divider"></span>
+
+            <div class="install-btn">
+                <a href="#"><i class="fa-regular fa-circle-down"></i> Install App</a>
+            </div>
+            <a href="#" class="signup">Sign up</a>
+
+            <button class="login-btn">
+                Log in
+            </button>
+        </div>
+    </header>
+
+    <!-- ========================= MAIN SECTION START ========================= -->
+    <div class="main">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Library Header -->
+            <div class="library-header">
+                <div class="library-title">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Your Library</span>
+                </div>
+                <button class="create-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Create
+                </button>
+            </div>
+
+            <!-- Playlist Box -->
+            <div class="library-box">
+                <h3>Create your first playlist</h3>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <!-- Podcast Box -->
+            <div class="library-box">
+                <h3>Let's find some podcasts to follow</h3>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="sidebar-footer">
+                <a href="#">Legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <!-- Language Button -->
+            <button class="language-btn">
+                <i class="fa-solid fa-globe"></i>
+                English
+            </button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Top Navigation -->
+            <div class="top-nav">
+                <button class="tab active">All</button>
+                <button class="tab">Music</button>
+                <button class="tab">Podcasts</button>
+            </div>
+
+            <!-- Popular Artists -->
+            <div class="section">
+                <div class="section-header">
+                    <h2>Popular artists</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="artist-container">
+                    <!-- Artist 1 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/Arjit singh.png" alt="Arijit Singh">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Arijit Singh</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- Artist 2 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/Atif.png" alt="Atif Aslam">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Atif Aslam</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- Artist 3 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/Pritam.png" alt="Pritam">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Pritam</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- Artist 4 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/A R REHMAN.png" alt="A.R. Rahman">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>A.R. Rahman</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- Artist 5 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/Sachin Jigar.png" alt="Sachin-Jigar">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Sachin-Jigar</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- Artist 6 -->
+                    <div class="artist-card">
+                        <div class="artist-image">
+                            <img src="Image/Vishal shekhar.png" alt="Vishal-Shekhar">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Vishal-Shekhar</h3>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trending Songs -->
+            <div class="section">
+                <div class="section-header">
+                    <h2>Trending songs</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/ASHIQUI 2.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Aashiqui 2</h3>
+                        <p>Arijit Singh</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Animal.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Animal</h3>
+                        <p>Pritam</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Kabir SIngh.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Kabir Singh</h3>
+                        <p>Sachet–Parampara</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Rockstar.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Rockstar</h3>
+                        <p>A.R. Rahman</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Jawan.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Jawan</h3>
+                        <p>Anirudh</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/YJHD.png" alt="Album 1">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Yeh Jawaani Hai Deewani</h3>
+                        <p>Pritam</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular Albums -->
+            <div class="section">
+                <div class="section-header">
+                    <h2>Popular albums and singles</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="card-container">
+                    <!-- Album 1 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/YJHD.png" alt="Album 1">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Yeh Jawaani Hai Deewani</h3>
+                        <p>Pritam</p>
+                    </div>
+
+                    <!-- Album 2 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Animal.png" alt="Album 2">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Animal</h3>
+                        <p>Various Artists</p>
+                    </div>
+
+                    <!-- Album 3 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/ASHIQUI 2.png" alt="Album 3">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Aashiqui 2</h3>
+                        <p>Arijit Singh</p>
+                    </div>
+
+                    <!-- Album 4 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Rockstar.png" alt="Album 4">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Rockstar</h3>
+                        <p>A.R. Rahman</p>
+                    </div>
+
+                    <!-- Album 5 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Jawan.png" alt="Album 5">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Jawan</h3>
+                        <p>Anirudh Ravichander</p>
+                    </div>
+
+                    <!-- Album 6 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Kabir SIngh.png" alt="Album">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Kabir Singh</h3>
+                        <p>Sachet–Parampara</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Charts -->
+            <div class="section">
+                <div class="section-header">
+                    <h2>Featured Charts</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/card6img.jpeg" alt="Top Songs">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Top Songs India</h3>
+                        <p>Your daily update of the most played tracks.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/card1img.jpeg" alt="Top Global">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Top 50 Global</h3>
+                        <p>The biggest songs in the world right now.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Screenshot 2026-07-14 011954.png" alt="Viral">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Viral 50</h3>
+                        <p>Trending songs across the internet.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Screenshot 2026-07-14 012110.png" alt="Hits">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Today's Hits</h3>
+                        <p>Today's biggest chartbusters.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Screenshot 2026-07-14 012159.png" alt="Mood">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Chill Mix</h3>
+                        <p>Relax and enjoy the best chill music.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="song-card">
+                        <div class="card-image">
+                            <img src="Image/Screenshot 2026-07-14 014235.png" alt="Top Songs">
+                            <button class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                        <h3>Top Songs Global</h3>
+                        <p>Trending songs across the internet.</p>
+                    </div>
+                </div> <!-- card-container -->
+            </div> <!-- section -->
+        </div> <!-- main-content -->
+    </div> <!-- main (Sahi jagah close ho gaya) -->
+
+    <!-- =========================== MUSIC PLAYER =========================== -->
+    <div class="music-player">
+        <!-- Left Section -->
+        <div class="player-left">
+            <img src="Image/Arjit singh.png" alt="Album Cover">
+            <div class="song-info">
+                <h4>Arijit Singh</h4>
+                <p>Songs</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-window-restore"></i>
+        </div>
+
+        <!-- Center Section -->
+        <div class="player-center">
+            <div class="player-controls">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <button class="play-button">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="progress-area">
+                <span>0:00</span>
+                <input type="range" min="0" max="100" value="35" class="progress-bar">
+                <span>3:42</span>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="player-right">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" min="0" max="100" value="70" class="volume-bar">
+            <i class="fa-solid fa-expand"></i>
+        </div>
+    </div>
+
+    <!--========================================= FOOTER ==========================================-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Jobs</a>
+                <a href="#">For the Record</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Communities</h4>
+                <a href="#">For Artists</a>
+                <a href="#">Developers</a>
+                <a href="#">Advertising</a>
+                <a href="#">Investors</a>
+                <a href="#">Vendors</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Useful Links</h4>
+                <a href="#">Support</a>
+                <a href="#">Free Mobile App</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Spotify Plans</h4>
+                <a href="#">Premium Individual</a>
+                <a href="#">Premium Duo</a>
+                <a href="#">Premium Family</a>
+                <a href="#">Premium Student</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© 2026 Spotify Clone by Keshav Mishra</p>
+        </div>
+    </footer>
+</body>
+
+</html>
