@@ -97,7 +97,8 @@ Spotify-Clone/
 
 # 📸 Screenshots
 
-> Screenshots will be added soon.
+<img width="1911" height="1087" alt="Screenshot 2026-07-15 180057" src="https://github.com/user-attachments/assets/ec2a2857-58f6-41fa-a697-a7b4a7c1adb0" />
+
 
 ---
 
