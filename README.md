@@ -97,9 +97,12 @@ Spotify-Clone/
 
 # 📸 Screenshots
 
-<img width="1911" height="1087" alt="Screenshot 2026-07-15 180057" src="https://github.com/user-attachments/assets/ec2a2857-58f6-41fa-a697-a7b4a7c1adb0" />
+<img width="1918" height="856" alt="Screenshot 2026-07-15 165435" src="https://github.com/user-attachments/assets/28a54b67-92a9-4bf7-aece-38ef4474451b" />
+<img width="608" height="958" alt="Screenshot 2026-07-15 181135" src="https://github.com/user-attachments/assets/d94c55b4-360b-492f-a250-0372ac30286b" />
+<img width="1913" height="966" alt="Screenshot 2026-07-15 165449" src="https://github.com/user-attachments/assets/46d4cb5f-b928-433c-9662-9898884eeb6c" />
+<img width="937" height="1010" alt="Screenshot 2026-07-15 181143" src="https://github.com/user-attachments/assets/f06b83c9-17e2-4f9c-b495-af5af2fce3c0" />
 
-
+Rather than simply recreating Spotify's interface, I focused on building a smooth, intuitive, and **user-friendly** experience. My goal was to make music browsing simple, navigation seamless, and the interface **fully responsive** so users can enjoy a consistent experience across **desktop, tablet, and mobile devices**.
 ---
 
 # 📚 What I Learned
@@ -146,5 +149,5 @@ I plan to enhance this project by adding:
 
 **Keshav Mishra**
 
-Frontend Developer (Learning)
+**Linkedin**: https://www.linkedin.com/posts/keshav-mishra-9a2a95290_html-css-frontenddeveloper-ugcPost-7483154380402139137-TwPk/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEajuEoB6srGfPww7mvy23wZ0CkuDe8F95Y
 
