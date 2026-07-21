@@ -1,5 +1,7 @@
 # Spotify Clone 🎵
 
+<img width="1911" height="1087" alt="Screenshot 2026-07-15 180057" src="https://github.com/user-attachments/assets/b2a1b904-193b-452c-a66c-10ec10db6833" />
+
 A responsive **Spotify-inspired music streaming interface** built using **HTML5** and **CSS3**.
 
 This project recreates the look and feel of Spotify's desktop web player with a clean, modern UI and responsive design.
