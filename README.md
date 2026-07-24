@@ -144,7 +144,14 @@ I plan to enhance this project by adding:
 - Spotify API Integration
 
 ---
+## Disclaimer
 
+This project is created for educational purposes only.
+
+It is a frontend clone built using HTML and CSS to practice responsive web design and UI development.
+
+This project is not affiliated with, endorsed by, or associated with Spotify.
+---
 # 👨‍💻 Author
 
 **Keshav Mishra**
